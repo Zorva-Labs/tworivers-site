@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
+  <url>
+    <loc>https://tworiverscampground.com/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://tworiverscampground.com/img/og-image.jpg</image:loc>
+      <image:title>Two Rivers Campground — Music Valley, Nashville</image:title>
+      <image:caption>Two Rivers Campground in Music Valley, Nashville — premier full-hookup RV park</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://tworiverscampground.com/img/sign.png</image:loc>
+      <image:title>Two Rivers Campground entrance sign</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tworiverscampground.com/img/grounds.jpg</image:loc>
+      <image:title>RV sites at Two Rivers Campground</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tworiverscampground.com/img/site-map.pdf</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
