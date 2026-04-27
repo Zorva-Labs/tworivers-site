@@ -317,7 +317,7 @@ p { line-height: 1.7; color: var(--forest-soft); }
 
 /* ── Top bar ───────────────────────────────────────────── */
 .topbar {
-  background: var(--forest);
+  background: var(--plum-deep);
   color: var(--cream);
   font-size: 0.78rem;
   letter-spacing: 0.04em;
@@ -549,10 +549,10 @@ p { line-height: 1.7; color: var(--forest-soft); }
 }
 .hero__sign:hover img { transform: translateY(-3px); }
 
-/* Good Sam logo tucked at bottom-right corner of the sign */
+/* Good Sam logo tucked at bottom-left corner of the sign */
 .hero__stamp {
   position: absolute;
-  right: -1.5rem;
+  left: -1.5rem;
   bottom: -1rem;
   width: clamp(72px, 8vw, 96px);
   height: auto;
@@ -572,7 +572,7 @@ p { line-height: 1.7; color: var(--forest-soft); }
   display: block;
 }
 @media (max-width: 600px) {
-  .hero__stamp { width: 64px; right: -0.5rem; bottom: -0.5rem; }
+  .hero__stamp { width: 64px; left: -0.5rem; bottom: -0.5rem; }
 }
 
 .hero__meta {
@@ -1863,7 +1863,7 @@ section { position: relative; }
 .cta {
   position: relative;
   overflow: hidden;
-  background: var(--ink);
+  background: var(--plum-deep);
   color: var(--cream);
   padding: 0;
   min-height: 480px;
@@ -1884,7 +1884,7 @@ section { position: relative; }
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, rgba(26,26,46,0.92) 0%, rgba(61,30,92,0.55) 50%, rgba(26,26,46,0.85) 100%);
+  background: linear-gradient(120deg, rgba(42,19,66,0.92) 0%, rgba(61,30,92,0.55) 50%, rgba(42,19,66,0.88) 100%);
 }
 .cta__inner {
   position: relative;
@@ -1959,7 +1959,7 @@ section { position: relative; }
 
 /* ── Footer ───────────────────────────────────────────── */
 footer {
-  background: var(--ink);
+  background: var(--plum-deep);
   color: var(--cream);
 }
 .footer__top {
@@ -2122,7 +2122,7 @@ footer {
   .footer__bottom { justify-content: flex-start; }
 
   /* Hero stamp doesn't crowd small viewports */
-  .hero__stamp { width: 56px; right: -0.5rem; bottom: -0.5rem; }
+  .hero__stamp { width: 56px; left: -0.5rem; bottom: -0.5rem; }
 
   /* Tighter section padding on small screens */
   .section { padding: clamp(3rem, 8vw, 4.5rem) 0; }
